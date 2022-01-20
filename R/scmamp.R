@@ -50,14 +50,3 @@ adjustShaffer(pv.matrix)
 pv.adj <- adjustBergmannHommel(pv.matrix)
 pv.adj
 
-source("http://www.bioconductor.org/biocLite.R")
-biocLite("Rgraphviz")
-
-r.means <- colMeans(rankMatrix(data.gh.2008))
-drawAlgorithmGraph(pvalue.matrix=pv.adj, mean.value=r.means, alpha=0.05,
-                   font.size=10, node.width=3, node.height=1)
-
-drawAlgorithmGraph (pvalue.matrix=pv.adj, mean.value=r.means, alpha=0.05, 'fdp',
-                    highlight.color="red", node.color="white", font.color="black",
-                    font.size=10, node.width=2, node.height=1)
-                    
