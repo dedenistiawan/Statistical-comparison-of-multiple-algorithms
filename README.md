@@ -1,2 +1,2 @@
-# scmamp Statistical comparison of multiple algorithms
+# Statistical comparison of multiple algorithms
 Given a matrix with results of different algorithms for different problems, the package uses statistical tests and corrections to assess the differences between algorithms.
