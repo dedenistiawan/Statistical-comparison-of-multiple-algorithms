@@ -50,3 +50,4 @@ adjustShaffer(pv.matrix)
 pv.adj <- adjustBergmannHommel(pv.matrix)
 pv.adj
 
+library(klaR)
