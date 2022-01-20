@@ -13,9 +13,9 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 
 BiocManager::install("Rgraphviz")
 
-library(graph)
 library(BiocGenerics)
 library(parallel)
+library(graph)
 library(Rgraphviz)
 
 data(data_blum_2015)
@@ -49,5 +49,6 @@ pv.matrix
 adjustShaffer(pv.matrix)
 pv.adj <- adjustBergmannHommel(pv.matrix)
 pv.adj
+
 
 
