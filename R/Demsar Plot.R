@@ -6,7 +6,7 @@ devtools::install_github("b0rxa/scmamp")
 
 library(scmamp)
 library(ggplot2)
-library(grid)
+
 
 data.auc <- data.frame(
   #c=c("CM1","KC1","KC3","MC2","MW1","PC1","PC2","PC3","PC4"),
